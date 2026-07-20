@@ -1,0 +1,48 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.nutritionrainbow.nutrition_rainbow"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId = "com.nutritionrainbow.nutrition_rainbow"
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            // Signed with debug keys for now so `flutter build apk --release` works
+            // out of the box. Replace with a real signing config before publishing.
+            signingConfig = signingConfigs.debug
+        }
+    }
+
+    // Name the output APK, e.g. nutrition-rainbow-release-1.0.0.apk
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            output.outputFileName =
+                "nutrition-rainbow-${variant.buildType.name}-${variant.versionName}.apk"
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
