@@ -275,6 +275,7 @@ const List<RainbowBand> kBands = [
                 'studies suggest long-term intake aids memory, and diets rich '
                 'in it may lower the risk of memory decline and dementia.',
             bodyVi: 'Hỗ trợ trí nhớ và giảm nguy cơ suy giảm nhận thức.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/17998490/'),
           ),
           Benefit(
             titleEn: 'Improves eyesight',
@@ -286,6 +287,7 @@ const List<RainbowBand> kBands = [
             bodyVi:
                 'Chuyển hóa thành vitamin A, duy trì thị lực, giảm nguy cơ '
                 'thoái hóa điểm vàng.',
+            source: Source('PMC · NCBI', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC1462955/'),
           ),
           Benefit(
             titleEn: 'Supports lung health',
@@ -297,6 +299,7 @@ const List<RainbowBand> kBands = [
             bodyVi:
                 'Hỗ trợ chức năng phổi (từ thực phẩm, không phải viên bổ sung '
                 '— vốn có thể hại người hút thuốc).',
+            source: Source('NEJM', 'https://www.nejm.org/doi/full/10.1056/NEJM199404143301501'),
           ),
           Benefit(
             titleEn: 'Protects skin',
@@ -307,6 +310,7 @@ const List<RainbowBand> kBands = [
                 'sunscreen.',
             bodyVi:
                 'Hỗ trợ bảo vệ da khỏi tia UV (nhẹ, không thay được kem chống nắng).',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/23053552/'),
           ),
           Benefit(
             titleEn: 'May help prevent some cancers',
@@ -318,6 +322,7 @@ const List<RainbowBand> kBands = [
             bodyVi:
                 'Từ thực phẩm tự nhiên, liên quan giảm nguy cơ ung thư vú, '
                 'phổi và tụy.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/23221879/'),
           ),
         ],
         sourcesEn:
@@ -378,6 +383,7 @@ const List<RainbowBand> kBands = [
                 'They neutralise harmful free radicals and reduce oxidative '
                 'stress, lowering the risk of several chronic diseases.',
             bodyVi: 'Trung hòa gốc tự do, giảm stress oxy hóa.',
+            source: Source('PMC · NCBI', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5084045/'),
           ),
           Benefit(
             titleEn: 'Anti-inflammatory effects',
@@ -386,6 +392,7 @@ const List<RainbowBand> kBands = [
                 'They limit inflammatory reactions — important because chronic '
                 'inflammation is linked to many diseases.',
             bodyVi: 'Hạn chế phản ứng viêm mạn tính.',
+            source: Source('DOI', 'https://doi.org/10.3390/molecules27092901'),
           ),
           Benefit(
             titleEn: 'Heart & blood-vessel health',
@@ -396,6 +403,7 @@ const List<RainbowBand> kBands = [
                 'and anthocyanins especially).',
             bodyVi:
                 'Hỗ trợ mạch máu và tuần hoàn, giảm nguy cơ bệnh tim và đột quỵ.',
+            source: Source('Wiley', 'https://onlinelibrary.wiley.com/doi/10.1002/mnfr.202001019'),
           ),
           Benefit(
             titleEn: 'Lower type-2 diabetes risk',
@@ -404,6 +412,7 @@ const List<RainbowBand> kBands = [
                 'Research suggests about 300 mg of flavonoids a day may lower '
                 'the risk of type 2 diabetes by roughly 5%.',
             bodyVi: 'Khoảng 300 mg/ngày có thể giảm ~5% nguy cơ.',
+            source: Source('PMC · NCBI', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5959406/'),
           ),
           Benefit(
             titleEn: 'Brain & cognitive support',
@@ -412,6 +421,7 @@ const List<RainbowBand> kBands = [
                 'They protect brain cells and influence signalling pathways '
                 'involved in memory, learning and cognitive performance.',
             bodyVi: 'Bảo vệ tế bào não, hỗ trợ trí nhớ và học tập.',
+            source: Source('Neurology', 'https://www.neurology.org/doi/10.1212/WNL.0000000000201541'),
           ),
           Benefit(
             titleEn: 'Cancer prevention & immunity',
@@ -421,6 +431,7 @@ const List<RainbowBand> kBands = [
                 'the immune system, they help the body prevent and fight '
                 'cancer.',
             bodyVi: 'Cân bằng chống oxy hóa và tăng cường miễn dịch.',
+            source: Source('ScienceDirect', 'https://www.sciencedirect.com/science/article/pii/S2590257123000159?via=ihub'),
           ),
         ],
         sourcesEn:
@@ -467,6 +478,7 @@ const List<RainbowBand> kBands = [
                 'It reduces inflammation and pain and can improve symptoms in '
                 'inflammatory diseases such as arthritis.',
             bodyVi: 'Giảm viêm và đau, hỗ trợ bệnh viêm khớp.',
+            source: Source('PMC · NCBI', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5003001/'),
           ),
           Benefit(
             titleEn: 'Antioxidant activity',
@@ -475,6 +487,7 @@ const List<RainbowBand> kBands = [
                 'It reduces oxidative stress by neutralising harmful molecules '
                 'that damage cells.',
             bodyVi: 'Trung hòa phân tử gây hại, giảm stress oxy hóa.',
+            source: Source('PMC · NCBI', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5664031/'),
           ),
           Benefit(
             titleEn: 'Cancer support',
@@ -483,6 +496,7 @@ const List<RainbowBand> kBands = [
                 'Some research suggests it may slow or inhibit tumour growth '
                 'and support the body\'s natural defences.',
             bodyVi: 'Có thể làm chậm khối u và hỗ trợ đề kháng tự nhiên.',
+            source: Source('PMC · NCBI', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2758121/'),
           ),
           Benefit(
             titleEn: 'Skin health',
@@ -492,6 +506,7 @@ const List<RainbowBand> kBands = [
                 'stress, boosting collagen and aiding tissue repair.',
             bodyVi:
                 'Hỗ trợ chàm, mụn, vảy nến nhờ giảm oxy hóa và tăng collagen.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/27213821/'),
           ),
           Benefit(
             titleEn: 'Weight & metabolic support',
@@ -500,6 +515,7 @@ const List<RainbowBand> kBands = [
                 'It may regulate lipid metabolism and improve insulin '
                 'sensitivity, supporting weight and metabolic health.',
             bodyVi: 'Điều hòa mỡ máu và tăng nhạy insulin.',
+            source: Source('PMC · NCBI', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6582779/'),
           ),
           Benefit(
             titleEn: 'Allergy & asthma relief',
@@ -508,6 +524,7 @@ const List<RainbowBand> kBands = [
                 'Its anti-inflammatory action may reduce coughing, itching '
                 'and sneezing and lower the risk of asthma attacks.',
             bodyVi: 'Giảm ho, ngứa, hắt hơi và nguy cơ lên cơn hen.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/27789120/'),
           ),
           Benefit(
             titleEn: 'Regulating cholesterol',
@@ -516,6 +533,7 @@ const List<RainbowBand> kBands = [
                 'Clinical studies suggest turmeric may lower cholesterol and '
                 'triglycerides, useful in diabetes and metabolic disorders.',
             bodyVi: 'Có thể giảm cholesterol và triglyceride.',
+            source: Source('PMC · NCBI', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5637251/'),
           ),
         ],
         sourcesEn:
@@ -576,6 +594,7 @@ const List<RainbowBand> kBands = [
             bodyVi:
                 'Cải thiện tuần hoàn, kích thích hemoglobin, gắn kim loại '
                 'nặng và hỗ trợ làm sạch ruột.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/11724948/'),
           ),
           Benefit(
             titleEn: 'Red blood cells & heart',
@@ -586,6 +605,7 @@ const List<RainbowBand> kBands = [
                 'and support the heart.',
             bodyVi:
                 'Hỗ trợ tạo hồng cầu (giảm thiếu máu) và có thể giảm cholesterol.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/32526968/'),
           ),
           Benefit(
             titleEn: 'Protecting cells',
@@ -594,6 +614,7 @@ const List<RainbowBand> kBands = [
                 'Its antioxidant, anti-inflammatory action reduces oxidative '
                 'stress and may help limit tumour development.',
             bodyVi: 'Giảm oxy hóa, hạn chế tổn thương và khối u.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/11018464/'),
           ),
           Benefit(
             titleEn: 'Liver & digestion',
@@ -602,6 +623,7 @@ const List<RainbowBand> kBands = [
                 'It may support liver detox and digestion, strengthen '
                 'immunity, ease asthma symptoms and help skin repair.',
             bodyVi: 'Hỗ trợ gan, tiêu hóa, miễn dịch và phục hồi da.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/15774490/'),
           ),
         ],
         sourcesEn:
@@ -644,6 +666,7 @@ const List<RainbowBand> kBands = [
                 'its antioxidant action may reduce the risk of age-related '
                 'macular degeneration (AMD).',
             bodyVi: 'Tập trung ở điểm vàng, giảm nguy cơ thoái hóa điểm vàng.',
+            source: Source('Ophthalmology', 'https://www.aaojournal.org/article/S0161-6420(24)00425-1/fulltext'),
           ),
           Benefit(
             titleEn: 'Protecting collagen',
@@ -652,6 +675,7 @@ const List<RainbowBand> kBands = [
                 'It helps maintain skin collagen for elasticity and firmness '
                 'and may slow visible signs of aging.',
             bodyVi: 'Giữ collagen, tăng độ đàn hồi, làm chậm lão hóa da.',
+            source: Source('DOI', 'https://doi.org/10.1007/s00403-007-0779-0'),
           ),
           Benefit(
             titleEn: 'Even, hydrated skin',
@@ -660,6 +684,7 @@ const List<RainbowBand> kBands = [
                 'It helps guard against UV damage, may reduce excess melanin '
                 '(uneven tone) and supports skin hydration.',
             bodyVi: 'Chống UV, giảm melanin dư và giữ ẩm da.',
+            source: Source('DOI', 'https://doi.org/10.3746/pnf.2021.26.4.425'),
           ),
           Benefit(
             titleEn: 'Cell protection',
@@ -670,6 +695,7 @@ const List<RainbowBand> kBands = [
             bodyVi:
                 'Bảo vệ lipid, protein, DNA và tái tạo chất chống oxy hóa '
                 '(glutathione).',
+            source: Source('DOI', 'https://doi.org/10.18388/abp.2012_2185'),
           ),
         ],
         sourcesEn:
@@ -714,6 +740,7 @@ const List<RainbowBand> kBands = [
                 'concentrated-dose studies).',
             bodyVi:
                 'Kích hoạt enzyme thải độc bảo vệ tế bào khỏi chất gây ung thư.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/?term=Broccoli+sprouts:+an+exceptionally+rich+source+of+inducers+of+enzymes+that+protect+against+chemical+carcinogens'),
           ),
           Benefit(
             titleEn: 'Cardiovascular health',
@@ -722,6 +749,7 @@ const List<RainbowBand> kBands = [
                 'Its anti-inflammatory action may protect blood vessels and '
                 'help lower high blood pressure.',
             bodyVi: 'Kháng viêm, bảo vệ mạch máu, hạ huyết áp.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/26583056/'),
           ),
           Benefit(
             titleEn: 'Diabetes management',
@@ -730,6 +758,7 @@ const List<RainbowBand> kBands = [
                 'It may help lower blood sugar in type 2 diabetes, especially '
                 'for people who are obese or poorly controlled.',
             bodyVi: 'Có thể giảm đường huyết ở tiểu đường type 2.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/?term=Sulforaphane+reduces+hepatic+glucose+production+and+improves+glucose+control+in+patients+with+type+2+diabetes'),
           ),
           Benefit(
             titleEn: 'Skin & brain protection',
@@ -738,6 +767,7 @@ const List<RainbowBand> kBands = [
                 'It may protect skin from UV damage and shield brain cells '
                 'through antioxidant and anti-inflammatory action.',
             bodyVi: 'Bảo vệ da khỏi UV và hỗ trợ tế bào não.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/23983898/'),
           ),
           Benefit(
             titleEn: 'Better digestion',
@@ -746,6 +776,7 @@ const List<RainbowBand> kBands = [
                 'It may ease constipation and support healthier digestion. '
                 '(Most evidence is still from cell or animal studies.)',
             bodyVi: 'Có thể giảm táo bón (bằng chứng chủ yếu từ nghiên cứu tiền lâm sàng).',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/?term=Daily+intake+of+broccoli+sprouts+normalizes+bowel+habits+in+human+healthy+subjects'),
           ),
         ],
         sourcesEn:
@@ -790,6 +821,7 @@ const List<RainbowBand> kBands = [
             bodyVi:
                 'Bảo vệ tim mạch khi estrogen giảm; ~80 mg/ngày, an toàn hơn '
                 'liệu pháp estrogen.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/20728290/'),
           ),
           Benefit(
             titleEn: 'Memory & brain',
@@ -798,6 +830,7 @@ const List<RainbowBand> kBands = [
                 'In postmenopausal women, 12 weeks of isoflavones improved '
                 'memory performance compared with placebo.',
             bodyVi: 'Cải thiện trí nhớ ở phụ nữ sau mãn kinh sau 12 tuần.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/15238592/'),
           ),
           Benefit(
             titleEn: 'Preventing osteoporosis',
@@ -807,6 +840,7 @@ const List<RainbowBand> kBands = [
                 'in menopausal women, a natural alternative to hormone '
                 'therapy.',
             bodyVi: 'Hơn 75 mg/ngày có thể tăng mật độ xương.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/18063230/'),
           ),
           Benefit(
             titleEn: 'Lower prostate-cancer risk',
@@ -815,6 +849,7 @@ const List<RainbowBand> kBands = [
                 'Higher soy-isoflavone intake was linked to up to a 51% lower '
                 'risk in high-risk men.',
             bodyVi: 'Giảm tới 51% nguy cơ ở nam giới nguy cơ cao.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/12869409/'),
           ),
           Benefit(
             titleEn: 'Skin health',
@@ -823,6 +858,7 @@ const List<RainbowBand> kBands = [
                 'As antioxidants and hormone regulators they may slow aging '
                 'and improve skin elasticity and firmness.',
             bodyVi: 'Làm chậm lão hóa, tăng đàn hồi da.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/19578653/'),
           ),
           Benefit(
             titleEn: 'Easing PMS',
@@ -831,6 +867,7 @@ const List<RainbowBand> kBands = [
                 '68 mg of soy isoflavones daily was linked to fewer '
                 'headaches, less breast pain and reduced cramps.',
             bodyVi: '68 mg/ngày giảm đau đầu, đau ngực và co thắt.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/15975174/'),
           ),
         ],
         sourcesEn:
@@ -871,6 +908,7 @@ const List<RainbowBand> kBands = [
                 'It helps convert estrogen into less harmful forms, which may '
                 'reduce hormone-imbalance disorders.',
             bodyVi: 'Chuyển estrogen thành dạng ít hại hơn, cân bằng nội tiết.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/9168187/'),
           ),
           Benefit(
             titleEn: 'Anti-cancer properties',
@@ -881,6 +919,7 @@ const List<RainbowBand> kBands = [
             bodyVi:
                 'Làm chậm tế bào ung thư và kích hoạt enzyme thải chất gây '
                 'ung thư.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/18314259/'),
           ),
           Benefit(
             titleEn: 'Liver health',
@@ -889,6 +928,7 @@ const List<RainbowBand> kBands = [
                 'It supports liver detox pathways so the body clears toxins '
                 'more efficiently.',
             bodyVi: 'Hỗ trợ gan thải độc hiệu quả hơn.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/18314259/'),
           ),
           Benefit(
             titleEn: 'Cardiovascular support',
@@ -896,6 +936,7 @@ const List<RainbowBand> kBands = [
             bodyEn:
                 'It may lower LDL ("bad") cholesterol and improve circulation.',
             bodyVi: 'Giảm cholesterol xấu (LDL) và cải thiện tuần hoàn.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/22569347/'),
           ),
           Benefit(
             titleEn: 'Reducing inflammation',
@@ -904,6 +945,7 @@ const List<RainbowBand> kBands = [
                 'Its anti-inflammatory action may lower the risk of long-term '
                 'inflammatory disease.',
             bodyVi: 'Kháng viêm, giảm nguy cơ bệnh viêm mạn.',
+            source: Source('PubMed', 'https://pubmed.ncbi.nlm.nih.gov/23597448/'),
           ),
         ],
         sourcesEn:
@@ -965,6 +1007,7 @@ const List<RainbowBand> kBands = [
                 'It may reduce swelling and inflammation, lowering the risk of '
                 'chronic inflammatory disease.',
             bodyVi: 'Giảm sưng viêm, hạ nguy cơ bệnh viêm mạn.',
+            source: Source('ScienceDirect', 'https://www.sciencedirect.com/science/article/abs/pii/S0014299904005503?via=ihub'),
           ),
           Benefit(
             titleEn: 'Blood-sugar regulation',
@@ -973,6 +1016,7 @@ const List<RainbowBand> kBands = [
                 'It is being studied for improving insulin secretion and '
                 'better blood-sugar control.',
             bodyVi: 'Được nghiên cứu giúp tiết insulin và kiểm soát đường huyết.',
+            source: Source('Cell Metabolism', 'https://www.cell.com/cell-metabolism/fulltext/S1550-4131(06)00129-X?_returnURL=https://linkinghub.elsevier.com/retrieve/pii/S155041310600129X?showall=true'),
           ),
           Benefit(
             titleEn: 'Biomedical applications',
@@ -981,6 +1025,7 @@ const List<RainbowBand> kBands = [
                 'Biocompatible and low-toxicity, it strengthens tissue grafts '
                 'and medical implants.',
             bodyVi: 'Tương thích sinh học, gia cố mô ghép và vật liệu cấy.',
+            source: Source('ScienceDirect', 'https://www.sciencedirect.com/science/article/abs/pii/S0144861709000526?via=ihub'),
           ),
         ],
         sourcesEn:
@@ -1018,6 +1063,7 @@ const List<RainbowBand> kBands = [
                 'Their antioxidant, anti-inflammatory action may slow cancer '
                 'cells and block signalling behind uncontrolled growth.',
             bodyVi: 'Làm chậm tế bào ung thư và chặn tín hiệu tăng sinh.',
+            source: Source('ScienceDirect', 'https://www.sciencedirect.com/science/article/abs/pii/S0271531722000811?via=ihub'),
           ),
           Benefit(
             titleEn: 'Improving cognition',
@@ -1026,6 +1072,7 @@ const List<RainbowBand> kBands = [
                 'They boost antioxidant protection in brain tissue; '
                 'anthocyanins from blueberries may protect memory.',
             bodyVi: 'Tăng bảo vệ mô não, hỗ trợ trí nhớ.',
+            source: Source('DOI', 'https://doi.org/10.1007/s13668-024-00595-z'),
           ),
           Benefit(
             titleEn: 'Cardiovascular health',
@@ -1034,6 +1081,7 @@ const List<RainbowBand> kBands = [
                 'They may lower blood pressure, cut heart-attack risk and '
                 'improve blood-vessel function.',
             bodyVi: 'Hạ huyết áp, giảm nguy cơ nhồi máu, cải thiện mạch máu.',
+            source: Source('DOI', 'https://doi.org/10.3390/nu13082831'),
           ),
           Benefit(
             titleEn: 'Boosting immunity',
@@ -1042,6 +1090,7 @@ const List<RainbowBand> kBands = [
                 'They protect lipids and DNA from oxidation and support '
                 'balanced cytokine and immune responses.',
             bodyVi: 'Bảo vệ lipid và DNA, cân bằng phản ứng miễn dịch.',
+            source: Source('DOI', 'https://doi.org/10.3390/nu15194152'),
           ),
           Benefit(
             titleEn: 'Vision & eye health',
@@ -1050,6 +1099,7 @@ const List<RainbowBand> kBands = [
                 'They protect eye tissue from free radicals and may improve '
                 'night vision and overall visual function.',
             bodyVi: 'Bảo vệ mô mắt, cải thiện thị lực ban đêm.',
+            source: Source('DOI', 'https://doi.org/10.3390/molecules24183311'),
           ),
           Benefit(
             titleEn: 'Skin protection',
@@ -1058,6 +1108,7 @@ const List<RainbowBand> kBands = [
                 'They strengthen connective tissue and guard skin from '
                 'environmental damage and aging.',
             bodyVi: 'Củng cố mô liên kết, bảo vệ da khỏi lão hóa.',
+            source: Source('DOI', 'https://doi.org/10.3390/foods13213506'),
           ),
         ],
         sourcesEn:
@@ -1173,6 +1224,7 @@ const List<RainbowBand> kBands = [
                 'Their antioxidant, anti-inflammatory action may slow cancer '
                 'cells and block signalling behind uncontrolled growth.',
             bodyVi: 'Làm chậm tế bào ung thư và chặn tín hiệu tăng sinh.',
+            source: Source('ScienceDirect', 'https://www.sciencedirect.com/science/article/abs/pii/S0271531722000811?via=ihub'),
           ),
           Benefit(
             titleEn: 'Improving cognition',
@@ -1181,6 +1233,7 @@ const List<RainbowBand> kBands = [
                 'They boost antioxidant protection in brain tissue; '
                 'anthocyanins from purple sweet potato may protect memory.',
             bodyVi: 'Tăng bảo vệ mô não, hỗ trợ trí nhớ.',
+            source: Source('DOI', 'https://doi.org/10.1007/s13668-024-00595-z'),
           ),
           Benefit(
             titleEn: 'Cardiovascular health',
@@ -1189,6 +1242,7 @@ const List<RainbowBand> kBands = [
                 'They may lower blood pressure, cut heart-attack risk and '
                 'improve blood-vessel function.',
             bodyVi: 'Hạ huyết áp, giảm nguy cơ nhồi máu, cải thiện mạch máu.',
+            source: Source('DOI', 'https://doi.org/10.3390/nu13082831'),
           ),
           Benefit(
             titleEn: 'Skin protection',
@@ -1197,6 +1251,7 @@ const List<RainbowBand> kBands = [
                 'They strengthen connective tissue and guard skin from '
                 'environmental damage and aging.',
             bodyVi: 'Củng cố mô liên kết, bảo vệ da khỏi lão hóa.',
+            source: Source('DOI', 'https://doi.org/10.3390/foods13213506'),
           ),
         ],
         sourcesEn:
